@@ -29,7 +29,7 @@ jobs:
       - name: Add URL Map to .env.secret
         env:
           MAP_STORAGE_URL: ${{ secrets.MAP_STORAGE_URL }}
-        run: echo "MAP_STORAGE_API_KEY=${MAP_STORAGE_URL}" > .env.secret
+        run: echo "MAP_STORAGE_URL=${MAP_STORAGE_URL}" > .env.secret
 
       - name: Add API Key to .env.secret
         env:
