@@ -29,12 +29,12 @@ jobs:
       - name: Add URL Map to .env.secret
         env:
           MAP_STORAGE_URL: ${{ secrets.MAP_STORAGE_URL }}
-        run: echo "MAP_STORAGE_API_KEY=${ MAP_STORAGE_URL }" > .env.secret
+        run: echo "MAP_STORAGE_API_KEY=${MAP_STORAGE_URL}" > .env.secret
 
       - name: Add API Key to .env.secret
         env:
           MAP_STORAGE_API_KEY: ${{ secrets.MAP_STORAGE_API_KEY }}
-        run: echo "MAP_STORAGE_API_KEY=${ MAP_STORAGE_API_KEY }" >> .env.secret
+        run: echo "MAP_STORAGE_API_KEY=${MAP_STORAGE_API_KEY}" >> .env.secret
 
       - name: Deploy in MAP STORAGE
         run: npm run upload-only
