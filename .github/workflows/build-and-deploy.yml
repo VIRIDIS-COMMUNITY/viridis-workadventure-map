@@ -41,7 +41,7 @@ jobs:
 
       - name: Extract UPLOAD_MODE from .env
         # run: echo "UPLOAD_MODE=$(grep UPLOAD_MODE .env | cut -d '=' -f2)" >> $GITHUB_ENV
-        run: echo "UPLOAD_MODE=MAP-STORAGE >> $GITHUB_ENV
+        run: echo 'UPLOAD_MODE="MAP-STORAGE"' >> $GITHUB_ENV
 
       - name: Deploy in MAP STORAGE
         #i f: ${{ env.UPLOAD_MODE == 'MAP_STORAGE' }}
