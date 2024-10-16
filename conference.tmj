@@ -483,7 +483,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":".\/conference.png"
         }, 
         {
          "name":"mapName",
