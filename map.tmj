@@ -606,7 +606,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":".\/map.png"
+         "value":"\/map-storage\/viridis\/map.png"
         }, 
         {
          "name":"mapName",

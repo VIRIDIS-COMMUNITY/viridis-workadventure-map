@@ -483,7 +483,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":".\/conference.png"
+         "value":"\/map-storage\/viridis\/conference.png"
         }, 
         {
          "name":"mapName",
