@@ -4420,8 +4420,8 @@
                  "type":"area",
                  "visible":true,
                  "width":95.2542949481204,
-                 "x":198.772162051117,
-                 "y":1951.19201436237
+                 "x":350,
+                 "y":1840.19
                 }, 
                 {
                  "height":415.732436472347,
@@ -5656,7 +5656,7 @@
          "value":false
         }],
  "renderorder":"right-down",
- "tiledversion":"1.11.0",
+ "tiledversion":"1.11.2",
  "tileheight":32,
  "tilesets":[
         {
